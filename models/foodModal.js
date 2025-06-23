@@ -1,4 +1,4 @@
-// models/foodModel.js
+// models/foodModal.js
 import mongoose from "mongoose";
 
 // Schema
@@ -52,5 +52,5 @@ const foodSchema = new mongoose.Schema(
 );
 
 // Export
-const foodModel = mongoose.model("Foods", foodSchema);
-export default foodModel;
+const foodModal = mongoose.model("Foods", foodSchema);
+export default foodModal;
